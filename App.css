@@ -1,0 +1,120 @@
+body{
+  top: 0px;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #2c3535;
+}
+
+.App {
+  text-align: center;
+  background-color:#2c3535;
+  color: #DDDDDD;
+}
+
+.App-header {
+
+  align-items: center;
+  color: white;
+}
+
+.deadlines{
+  width: 80%;
+  margin: auto;
+
+}
+.deadlines_in{
+  border:1px solid lightgray;
+    background-color: #242b2b;
+}
+
+#dead_title{
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+#wrapper {
+    padding-top: 30px;
+    width: 100%;
+  
+    overflow: hidden; /* add this to contain floated children */
+}
+#first {
+    width: 50%;
+    float:left; /* add this */
+    position: relative;
+}
+#second {
+     width: 49%;
+    float: left; /* add this */
+    position: relative;
+}
+.goal{
+  background-color: #242b2b;
+}
+
+#rhsText{
+  position: absolute;
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+  top: 29%;
+  color: #DDDDDD;
+}
+#rhsText p{
+  margin: 0px;
+}
+
+#lhsText{
+  position: absolute;
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+  top: 32%;
+  color: #DDDDDD;
+}
+#lhsText p{
+  margin: 0px;
+}
+
+.goal{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+
+}
+
+.botton{
+  margin-top: 20px;
+  overflow: hidden;
+  width: 100%;
+  display: inline;
+  margin: 10px;
+
+}
+
+.reportButton{
+  background-color: #e3871b;
+  height: 50px;
+  width: 30%;
+  border-radius: 35px;
+  z-index: 120;
+  border: none;
+  margin-top: 30px;
+  display: inline-block;
+
+}
+
+.editButton{
+  background-color:  #84b424;
+  height: 50px;
+  width: 30%;
+  border-radius: 35px;
+  z-index: 120;
+  border: none;
+  margin-top: 30px;
+  display: inline-block;
+}
+
